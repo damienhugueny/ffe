@@ -3,7 +3,7 @@ console.log('coucou')
 const express = require('express')
 const puppeteer = require('puppeteer')
 
-let app = express(); // création de l'objet représentant notre application express
+
 let port = 8080;
  
 app.get('/:p1', function(req, res) { // création de la route sous le verbe get
